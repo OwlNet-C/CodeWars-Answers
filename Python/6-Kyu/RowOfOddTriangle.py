@@ -32,7 +32,6 @@ def odd_row(n):
     for each in range(0,2*n,2):
         form += each
     num_1 = form +1
-    print(num_1)
     for each in range(0,n):
         arr.append(num_1)
         num_1 +=2
