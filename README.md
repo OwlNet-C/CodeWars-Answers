@@ -1,6 +1,8 @@
 <h1 align="center"> CodeWars-Answers</h1>
 
-## Here you can find a collection of every single codewars Kata soloution i have attempted
+<p align="center">
+<sh1 align="center">Here you can find a collection of every single codewars Kata soloution i have attempted</sh1>
+</p>
 
 <p align="center">
  Here is my current ranking as of 23/02/2022
