@@ -24,7 +24,7 @@ def get_larger_numbers(a, b):
     else:
       empty.append(a[count])
     count +=1
-  return(empty
+  return(empty)
 
 get_larger_numbers(a, b)
 
