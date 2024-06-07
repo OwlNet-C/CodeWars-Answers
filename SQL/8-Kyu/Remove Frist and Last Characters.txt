@@ -7,10 +7,12 @@ You're given one parameter, the original string. You don't have to worry about s
 -- # write your SQL statement here: you are given a table 'removechar' with column 's',
 --return a table with column 's' and your result in a column named 'res'.
 --select * from removechar
+FINAL ANSWER:
 select s,
 SUBSTRING(s,2,LENGTH(s)-2) as res
 from removechar
 
+Examples of Right and Left function
 -- Using the right function to remove the first letter
 /*select s,
 right(s,length(s)-1) as res 
