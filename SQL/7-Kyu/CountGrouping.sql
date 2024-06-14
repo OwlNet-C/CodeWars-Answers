@@ -15,7 +15,8 @@ race
 count
 */
 -------------------------------- Answer
+/*  SQL  */
 select distinct(race),count(race)
 from demographics
 group by race
-order by 2
+order by count(race) desc
