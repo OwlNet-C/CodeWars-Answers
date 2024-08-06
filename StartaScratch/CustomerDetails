@@ -1,0 +1,13 @@
+https://platform.stratascratch.com/coding/9891-customer-details?code_type=3
+
+Find the details of each customer regardless of whether the customer made an order. Output the customer's first name, last name, and the city along with the order details.
+Sort records based on the customer's first name and the order details in ascending order.
+
+
+====================
+
+select first_name,last_name,city,
+ot.order_details
+from customers as ct
+left join orders as ot
+on ct.id = ot.cust_id
